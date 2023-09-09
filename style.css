@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #595959;
+    padding: 25px;
+}
+
+
+/* HEADER  */
+
+header {
+    display: flex;
+    gap: 350px;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.infoEmpresa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.infoEmpresa > div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+
+
+a {
+    color: #950101;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.infoPedido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+
+h2 {
+    color: #950101;
+}
+
+.infoPedido div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: end;  
+}
+
+#agencia {
+    font-size: 20px;
+}
+
+#ref span {
+    color: #A0A0A0;
+}
+
+#pr {
+    font-size: 26px;
+}
+
+
+/* MAIN */
+.service {
+    margin-bottom: 32px;
+}
+.service > article > hr {
+    border-color: #950101;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.service h2 {
+    margin-bottom: 8px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.title div {
+    display: flex;
+    gap: 60px;
+    
+    
+}
+
+.transferencia {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-weight: bold;
+    background-color: #f3f3f3;
+    padding: 5px 0;
+}
+
+.transferencia div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.transferencia span {
+    font-weight: 400;
+}
+
+
+.valor {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.valores {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    
+}
+
+.valores div:nth-child(1) {
+    display: flex;
+    gap: 125px;
+
+}
+
+.valores div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.valores hr {
+    width: 150px;
+}
+
+
+
+.total {
+    display: flex;
+    justify-content: end;
+}
+
+.total div {
+    display: flex;
+    gap: 220px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.resumo {
+    width: 100%;
+}
+
+.resumo article {
+    width: 65%;
+}
+
+.resumo article hr {
+    border-color: #950101;
+}
+
+.resumo article div {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+.prazo {
+    margin: 16px 0;
+    padding-left: 12px;
+}
+
+.banco {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-left: 12px;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 60px;
+    text-align: center;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    margin-top: 32px;
+}
